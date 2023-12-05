@@ -6,4 +6,11 @@
     </style>
 
     <style name="Theme.AppExamenPMDM1eva" parent="Base.Theme.AppExamenPMDM1eva" />
+
+    <style name="conf_botones" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/black</item>
+        <item name="backgroundTint">@color/color_botones</item>
+        <item name="fontFamily">@font/alice</item>
+        <item name="android:textSize">20dp</item>
+    </style>
 </resources>

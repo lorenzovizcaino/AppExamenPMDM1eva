@@ -6,13 +6,128 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="239dp"
+        android:layout_height="189dp"
+        android:layout_marginTop="44dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/btn_star_big_on" />
+
+    <CheckBox
+        android:id="@+id/chB1"
+        android:layout_width="184dp"
+        android:layout_height="41dp"
+        android:layout_marginBottom="16dp"
+        android:checked="true"
+        android:enabled="true"
+        android:fontFamily="@font/alice"
+        android:text="@string/checkbox1"
+        app:layout_constraintBottom_toTopOf="@+id/chB2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.929"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <CheckBox
+        android:id="@+id/chB2"
+        android:layout_width="184dp"
+        android:layout_height="41dp"
+        android:layout_marginBottom="20dp"
+        android:checked="false"
+        android:enabled="true"
+        android:fontFamily="@font/alice"
+        android:text="@string/checkbox2"
+        app:layout_constraintBottom_toTopOf="@+id/chB3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.929"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <CheckBox
+        android:id="@+id/chB3"
+        android:layout_width="184dp"
+        android:layout_height="41dp"
+        android:layout_marginBottom="116dp"
+        android:checked="false"
+        android:enabled="true"
+        android:fontFamily="@font/alice"
+        android:text="@string/checkbox3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.929"
+        app:layout_constraintStart_toStartOf="parent" />
+
     <TextView
+        android:id="@+id/tV1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="@font/alice"
+        android:text="@string/botonesDeRadio"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/radiogroup"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.129"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <RadioGroup
+        android:id="@+id/radiogroup"
+        android:layout_width="162dp"
+        android:layout_height="160dp"
+        android:layout_marginBottom="108dp"
+        android:checkedButton="@id/rb1"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.112"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <RadioButton
+            android:id="@+id/rb1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/alice"
+            android:text="@string/radiobutton1" />
+
+        <RadioButton
+            android:id="@+id/rb2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/alice"
+            android:text="@string/radiobutton2" />
+
+        <RadioButton
+            android:id="@+id/rb3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/alice"
+            android:text="@string/radiobutton3" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/tV2"
+        android:layout_width="190dp"
+        android:layout_height="27dp"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="@font/alice"
+        android:text="@string/cajasDeChequeo"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/chB1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.932"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/boton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:text="@string/boton1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        style="@style/conf_botones"/>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

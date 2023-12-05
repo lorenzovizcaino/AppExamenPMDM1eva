@@ -1,3 +1,32 @@
 <resources>
     <string name="app_name">AppExamenPMDM1eva</string>
+    <string name="radiobutton1">Radio Boton 1</string>
+    <string name="radiobutton2">Radio Boton 2</string>
+    <string name="radiobutton3">Radio Boton 3</string>
+
+    <string name="checkbox1">Caja de chequeo 1</string>
+    <string name="checkbox2">Caja de chequeo 2</string>
+    <string name="checkbox3">Caja de chequeo 3</string>
+
+    <string name="selecionado">selecionado</string>
+    <string name="deselecionado">deselecionado</string>
+
+    <string name="botonesDeRadio">Botones de radio</string>
+    <string name="cajasDeChequeo">Cajas de chequeo</string>
+
+    <string name="boton1">Boton 1</string>
+
+    <string name="acerca_de">Acerca de</string>
+    <string name="inicio">Inicio</string>
+    <string name="compartir">Compartir</string>
+
+    <string name="autor">Aplicacion realizada por:\nM. Antonio Lorenzo Vizcaino</string>
+
+    <string name="texto_enviar">Estamos realizando el examen de PMDM</string>
+
+    <string name="no_se_puede">No se puede</string>
+    <string name="enlace_no_valido">Este no es un enlace válido</string>
+    <string name="no_hay_navegador">No tienes ningún navegador para abrir la página web</string>
+
+
 </resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AppTextPMDM1eva</string>
+    <string name="radiobutton1">Radio Button 1</string>
+    <string name="radiobutton2">Radio Button 2</string>
+    <string name="radiobutton3">Radio Button 3</string>
+
+    <string name="checkbox1">CheckBox 1</string>
+    <string name="checkbox2">CheckBox 2</string>
+    <string name="checkbox3">CheckBox 3</string>
+
+    <string name="selecionado">selected</string>
+    <string name="deselecionado">deselected</string>
+
+    <string name="botonesDeRadio">RadioButtons</string>
+    <string name="cajasDeChequeo">Checkboxes</string>
+
+    <string name="boton1">Button 1</string>
+
+    <string name="acerca_de">About</string>
+    <string name="inicio">Start</string>
+    <string name="compartir">Share</string>
+
+    <string name="autor">Application made by:\nM. Antonio Lorenzo Vizcaino</string>
+
+    <string name="texto_enviar">We are taking the PMDM exam</string>
+
+    <string name="no_se_puede">It can´t be done</string>
+    <string name="enlace_no_valido">This is not a valid link</string>
+    <string name="no_hay_navegador">You don´t have any browser to open web page</string>
+</resources>
