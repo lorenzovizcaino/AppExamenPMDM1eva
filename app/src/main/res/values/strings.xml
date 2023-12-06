@@ -1,4 +1,6 @@
 <resources>
+
+
     <string name="app_name">AppExamenPMDM1eva</string>
     <string name="radiobutton1">Radio Boton 1</string>
     <string name="radiobutton2">Radio Boton 2</string>
@@ -27,6 +29,10 @@
     <string name="no_se_puede">No se puede</string>
     <string name="enlace_no_valido">Este no es un enlace válido</string>
     <string name="no_hay_navegador">No tienes ningún navegador para abrir la página web</string>
+
+
+
+
 
 
 </resources>

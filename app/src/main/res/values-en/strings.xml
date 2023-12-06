@@ -28,4 +28,6 @@
     <string name="no_se_puede">It can´t be done</string>
     <string name="enlace_no_valido">This is not a valid link</string>
     <string name="no_hay_navegador">You don´t have any browser to open web page</string>
+
+
 </resources>
