@@ -38,8 +38,8 @@
         android:layout_marginTop="40dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/numberSpinner"
-        app:layout_constraintTop_toBottomOf="@+id/resultados"
-        android:entries="@array/countries"/>
+        app:layout_constraintTop_toBottomOf="@+id/resultados"/>
+<!--        android:entries="@array/countries"/>-->
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
