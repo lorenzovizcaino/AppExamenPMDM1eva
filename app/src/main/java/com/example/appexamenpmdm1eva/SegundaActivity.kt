@@ -65,7 +65,7 @@ class SegundaActivity : AppCompatActivity() {
         val adapterPaises = ArrayAdapter(this,R.layout.simple_spinner_item,paises)
 
         // Especificar el diseño a utilizar cuando aparece la lista de opciones
-        adapter.setDropDownViewResource(R.layout.simple_spinner_dropdown_item)
+        adapterPaises.setDropDownViewResource(R.layout.simple_spinner_dropdown_item)
 
         // Asignar el adaptador al Spinner
         countrySpinner.adapter = adapterPaises
