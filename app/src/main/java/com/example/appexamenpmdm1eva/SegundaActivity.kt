@@ -5,6 +5,7 @@ import android.os.Bundle
 import android.view.View
 import android.widget.AdapterView
 import android.widget.ArrayAdapter
+import android.widget.CompoundButton
 import android.widget.Spinner
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
@@ -89,6 +90,19 @@ class SegundaActivity : AppCompatActivity() {
             }
         }
         //Fin del spinner de paises
+
+
+        //uso del switch
+        binding.switchButton.setOnCheckedChangeListener { _: CompoundButton, isChecked: Boolean->
+            if(isChecked) showToast("Activado")
+            else showToast("Desactivado")
+        }
+
+        //uso del ToggleButton
+        binding.toggleButton.setOnCheckedChangeListener { _: CompoundButton, isChecked: Boolean ->
+            if(isChecked) showToast("Activado")
+            else showToast("Desactivado")
+        }
 
 
 
